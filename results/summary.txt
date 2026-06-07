@@ -1,0 +1,10 @@
+DQN Feature Selection on UNSW-NB15 - Results
+Method                         k    Accuracy    Macro F1
+-------------------------------------------------------
+All Features                  42      0.8690      0.8625
+Mutual Information            41      0.8708      0.8646
+Chi-squared                   41      0.8666      0.8598
+RFE                           41      0.8708      0.8646
+DQN Agent                     26      0.8708      0.8643
+
+DQN: 26 features (38.1% reduction), F1 delta: +0.0019

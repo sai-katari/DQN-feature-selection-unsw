@@ -1,0 +1,22 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Data files — too large for GitHub
+data/*.csv
+data/*.pkl
+data/*.pcap
+
+# Keep processed pkl description but not the file
+!data/.gitkeep
+
+# Results — commit plots and summary but not large pkl files
+results/*.pkl
+results/*.pt
+
+# Keep plots and text summaries
+!results/*.png
+!results/*.txt
+!results/.gitkeep
